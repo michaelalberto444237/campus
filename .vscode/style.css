@@ -15,11 +15,11 @@ body {
 
 .login-box {
     max-height: 400px;
-    background-color: #fff;
-    color: purple;
+    background-color:#f1eaea;
+    color: rgb(22, 1, 22);
     font-size: larger;
     padding: 30px;
-    border-radius: 5px;
+    border-radius:5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h2 {
