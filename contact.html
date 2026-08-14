@@ -1,17 +1,20 @@
+ ```html
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact - Micheal Abeto</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-    <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
 <header>
-    <h1>want a chat?</h1>
+    <h1>Micheal Abeto</h1>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -20,30 +23,64 @@
     </nav>
 </header>
 
-<main>
+<section>
+
+    <h2>Contact Me</h2>
+
     <p>
-    📞 Phone: <a href="tel:+237673918471">+237 673 918 471</a>
-</p>
-    <form action="https://formsubmit.co/Michaelalberto444@gmail.com" method="POST">
+        Have a question or want to discuss a project?
+        Send me a message below.
+    </p>
 
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <form action="YOUR_FORMSPREE_LINK" method="POST">
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="name">Full Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <label for="email">Email</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message"
+            required
+        ></textarea>
 
         <button type="submit">Send Message</button>
 
     </form>
 
-</main>
+    <p>
+        Phone:
+        <a href="tel:+237673918471">673 918 471</a>
+    </p>
+
+    <p>
+        School: GTHS Molyko
+    </p>
+
+</section>
 
 <footer>
-    <p>2026 Micheal Abeto</p>
+    <p>© <span id="year"></span> Micheal Abeto</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
+```
