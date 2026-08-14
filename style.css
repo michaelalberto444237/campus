@@ -177,7 +177,7 @@ footer {
 /* DARK MODE */
 .dark-mode {
     background: #101820;
-    color: #eee;
+    color: #6b4545;
 }
 
 .dark-mode section {
@@ -190,7 +190,7 @@ footer {
 
 .dark-mode .project {
     background:blue;
-    color: white;
+    color:black;
 }
 
 /* SCROLL ANIMATION */
