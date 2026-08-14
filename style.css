@@ -53,7 +53,7 @@ section {
 }
 
 section h2 {
-    color: #172a3a;
+    color:blue;
     font-size: 30px;
     margin-bottom: 25px;
 }
@@ -65,7 +65,7 @@ section h3 {
 
 /* HOME */
 .home {
-    background: linear-gradient(135deg, #172a3a, #28536b);
+    background: blue;
     color: white;
     padding-top: 110px;
 }
@@ -189,12 +189,12 @@ footer {
 }
 
 .dark-mode .project {
-    background: #1c2933;
+    background:blue;
     color: white;
 }
 
 /* SCROLL ANIMATION */
-.hidden {
+.visible {
     opacity: 0;
     transform: translateY(35px);
     transition: 0.8s ease;
